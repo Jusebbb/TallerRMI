@@ -22,13 +22,13 @@ public class Cliente {
       int opcion;
       // Bucle del menú
       do {
-        System.out.println("\n===== MENÚ BIBLIOTECA =====");
+        System.out.println("\n===== MENU BIBLIOTECA =====");
         System.out.println("1. Consultar libro por ISBN");
         System.out.println("2. Prestar libro por ISBN");
         System.out.println("3. Prestar libro por Título");
         System.out.println("4. Devolver libro por ISBN");
         System.out.println("5. Salir");
-        System.out.print("Elija una opción: ");
+        System.out.print("Elija una opcion: ");
 
         // Leer opción elegida por el usuario
         opcion = sc.nextInt();
